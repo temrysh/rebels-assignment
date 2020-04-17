@@ -5,7 +5,7 @@ import Title from "../components/title";
 import Description from "../components/description";
 import CoverImage from "../components/cover-image";
 
-import { episode$ } from "../streams/api";
+import { episode$ } from "../streams/state";
 import { useStream } from "../utils/hooks";
 
 export default () => {

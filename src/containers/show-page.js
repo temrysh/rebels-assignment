@@ -6,7 +6,7 @@ import CoverImage from "../components/cover-image";
 import EpisodeList from "../components/episode-list";
 import EpisodeListItem from "../components/episode-list-item";
 
-import { show$ } from "../streams/api";
+import { show$ } from "../streams/state";
 import { useStream } from "../utils/hooks";
 
 export default () => {
