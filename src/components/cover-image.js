@@ -1,3 +1,4 @@
 import React from "react";
 
-export default ({ src, alt }) => <img src={src} alt={alt} />;
+export default ({ src, alt }) =>
+  src ? <img src={src} alt={alt} /> : "No image available";

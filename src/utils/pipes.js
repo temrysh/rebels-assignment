@@ -15,7 +15,7 @@ export const fetchPipe = pipe(
 export const mapMeta = (data) => ({
   title: data.name,
   description: data.summary,
-  image: data.image.medium,
+  image: data.image ? data.image.medium : null,
 });
 
 export const findEpisodeByID = (id) => (list) => list.find((e) => e.id === id);
